@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Travel Blog Example</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<!-- Leaflet -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.css" />
+		<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.js"></script>
+		<style>
+			<!-- #map{ width: 900px; height: 500px; }
+			#map2{ width: 900px; height: 500px; } -->
+		</style>
+		<!-- ------------------------------------ -->
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/travel.jpeg" alt="" /></span>
+							<h1 id="title">Travel The World</h1>
+							<p>Live Your Passion</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Adventures</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Join Us</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Welcome to the <strong>Travel</strong> blog,<br />
+								 where we bring you the world to your home.</h2>
+								<p>The world is an open book, let's explore it together.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Let's Discover Together</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Adventures</h2>
+							</header>
+
+							<p>
+							There are great fun places around the world, places that bring excitement. 
+There are places that will spark your creativity, and others that will fuel your sense of adventure. 
+							</p>
+
+							<div class="row image fit">
+							
+								<div class="col-4 col-12-mobile">
+								
+									<article class="item">
+										
+										<!-- Leaflet map -->
+										<div id="mapid" style="width: 600px; height: 400px; position: relative;" class="image fit leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);">
+										<div class="leaflet-pane leaflet-tile-pane">
+										<div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+										<div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2723_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(56px, -91px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2723_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(312px, -91px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2724_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(56px, 165px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2724.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(312px, 165px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2723_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-200px, -91px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2723.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(568px, -91px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2724_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-200px, 165px, 0px); opacity: 1;">
+										<img alt="" role="presentation" src="Quick%20Start%20-%20Leaflet_files/2724_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(568px, 165px, 0px); opacity: 1;">
+										</div></div></div>
+										<div class="leaflet-pane leaflet-shadow-pane">
+										</div>
+										<div class="leaflet-pane leaflet-overlay-pane"></div>
+										<div class="leaflet-pane leaflet-marker-pane"></div>
+										<div class="leaflet-pane leaflet-tooltip-pane"></div>
+										<div class="leaflet-pane leaflet-popup-pane"></div>
+										<div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(1048050px, 697379px, 0px) scale(4096);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left">
+										<div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div>
+										</div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control">
+										<a href="https://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a></div></div></div></div>
+
+										<script>
+										var laRondaLatitudeLongitude = [-0.2242346, -78.5140283];
+										var mymap = L.map('mapid').setView(laRondaLatitudeLongitude, 15);
+
+										L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+											maxZoom: 18,
+											attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+												'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+												'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+											id: 'mapbox.streets'
+										}).addTo(mymap);
+										
+										//Add markers
+										var marker = L.marker(laRondaLatitudeLongitude).addTo(mymap);
+										
+											// popup
+											marker.bindPopup("<b>Calle de la Ronda</b><br>Beautiful historical site of Calle de la Ronda").openPopup();
+
+										
+										</script>
+										
+									</article>
+									
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/Calle-de-la-Ronda-Quito-Ecuador.png" alt="" /></a>
+										<header>
+											<h3>Calle de la Ronda</h3>
+										</header>
+									</article>
+									
+								</div>
+								
+								
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/Street-Around-La-Ronda.png" alt="" /></a>
+										<header>
+											<h3>Historical Sites</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/Street-Around-La-Ronda2.png" alt="" /></a>
+										<header>
+											<h3>Historical Sites</h3>
+										</header>
+									</article>
+								</div>
+								
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Join Us</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/Calle-de-la-Ronda-Panorama.PNG" alt="" /></a>
+
+							<p>How would you like to see the world?</br> 
+							Come and join us on our travel adventures.</br> 
+							   Stay tuned on our next posts where we bring the world to you!</p>
+
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. </li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
